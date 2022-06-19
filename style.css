@@ -1,0 +1,83 @@
+
+
+body{
+  font-family: 'M PLUS 1 Code', sans-serif;
+  font-family: 'Press Start 2P', cursive;
+  background-color:black;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  }
+  
+  .headerIMG {width: 100%;}
+  
+  .headline {
+    color:red;
+    font-weight: 800;
+    font-size: 4vw;
+  }
+  
+  .counter {
+    color:white;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    font-weight:500;
+    font-size: 1vw;
+  }
+  
+  .divheadline {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .divcounter {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .IMGcontainer {
+    background-color:white;
+    padding: 16px;
+  }
+  
+  a {
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    margin-top: 10vw;
+    margin-bottom: 10vw;
+    font-weight: 100;
+    font-size: 4vw;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color: red;
+    font-weight:bolder;
+  }
+  
+  .text {
+    color:red;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    font-weight:500;
+    font-size: 2vw;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    line-height: 200%;
+  }
+  
+  .Information {
+    color: white;
+    margin-bottom: 100px;
+    font-weight:400;
+    font-size: 0.9vw;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    line-height: 200%;
+  }
+  
+  .linebreak {margin-top: 1000px;}
+  
