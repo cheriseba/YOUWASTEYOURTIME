@@ -17,7 +17,6 @@ body{
   .counter {
     color:white;
     margin-top: 30px;
-    margin-bottom: 100px;
     font-weight:500;
     font-size: 2vw;
     text-align: center;
@@ -126,3 +125,24 @@ transform: translate(-12px, -12px);
     .flex-item {
       align-self: center;
     }
+
+
+
+
+
+    .timer{
+      height: px;
+      width: 100%;
+  }
+  
+  #display{
+    color: white;
+      width: 100%;
+      font-size: 72px;
+      text-align: center;
+      margin: 0px auto;
+  }
+  
+  .buttons{
+      text-align: center;
+  }
