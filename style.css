@@ -110,3 +110,19 @@ transform: translate(-12px, -12px);
   .btn-1:hover::before {
     transform: translate(12px, 12px);
     }
+
+
+    html {
+      font-size: 100%;
+    } /*16px*/
+  
+  
+    .bodyclass {
+     
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+    .flex-item {
+      align-self: center;
+    }
