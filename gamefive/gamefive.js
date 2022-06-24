@@ -282,23 +282,23 @@ text("so richtig wo du bist und wie du eigentlich dahin gekommen bist. Dich übe
 text("ein starkes Gefühl der Müdigkeit.",50,430);
 
 fill(255,150,0);
-    rect(50,450,350,80);
+    rect(50,550,350,80);
     
     fill(128);
     textSize(30);
-    text("NACH HAUSE GEHEN",70,500);
+    text("NACH HAUSE GEHEN",70,600);
     
-    if(mouseIsPressed && mouseX>50 && mouseX<400 && mouseY>450 && mouseY<530) {
+    if(mouseIsPressed && mouseX>50 && mouseX<400 && mouseY>550 && mouseY<630) {
         mode=12;}
 
     fill(255,150,0);
-    rect(600,450,350,80);
+    rect(600,550,350,80);
 
     fill(128);
     textSize(30);
-    text("EINSCHLAFEN",670,500);
+    text("EINSCHLAFEN",670,600);
     
-    if(mouseIsPressed && mouseX>600 && mouseX<950 && mouseY>450 && mouseY<530) {
+    if(mouseIsPressed && mouseX>600 && mouseX<950 && mouseY>550 && mouseY<630) {
         mode=13;}
 
 //einschlafen oder nach Hause gehen
@@ -404,23 +404,23 @@ text("einem Herz geziert wird. Du rappelst dich ein wenig auf. Du und die Katze 
 text("Blickkontakt.",50,490);  
 
 fill(255,150,0);
-rect(50,600,400,80);
+rect(50,650,400,80);
 
 fill(128);
 textSize(30);
-text("AUFSTEHEN UND GEHEN",65,650);
+text("AUFSTEHEN UND GEHEN",65,700);
 
-if(mouseIsPressed && mouseX>50 && mouseX<400 && mouseY>600 && mouseY<670) {
+if(mouseIsPressed && mouseX>50 && mouseX<400 && mouseY>650 && mouseY<730) {
     mode=16;}
 
 fill(255,150,0);
-rect(600,600,350,80);
+rect(600,650,350,80);
 
 fill(128);
 textSize(30);
-text("KATZE STREICHELN",630,650);
+text("KATZE STREICHELN",630,700);
 
-if(mouseIsPressed && mouseX>600 && mouseX<950 && mouseY>600 && mouseY<670) {
+if(mouseIsPressed && mouseX>600 && mouseX<950 && mouseY>650 && mouseY<730) {
     mode=17;}
 
 //katze streicheln oder aufstehen und gehen
@@ -486,7 +486,7 @@ fill(128);
 textSize(30);
 text("HAUPTSTRAßE",110,450);
 
-if(mouseIsPressed && mouseX>50 && mouseX<400 && mouseY>500 && mouseY<470) {
+if(mouseIsPressed && mouseX>50 && mouseX<400 && mouseY>400 && mouseY<470) {
     mode=22;}
 
 fill(255,150,0);
@@ -496,7 +496,7 @@ fill(128);
 textSize(30);
 text("WOHNGEBIET",670,450);
 
-if(mouseIsPressed && mouseX>600 && mouseX<950 && mouseY>400 && mouseY<4700) {
+if(mouseIsPressed && mouseX>600 && mouseX<950 && mouseY>400 && mouseY<470) {
     mode=23;}
 
 
@@ -656,12 +656,33 @@ text("noch eine Telefonzelle zu finden. Du überlegst, ob du einfach an einem de
 text("Einfamilienhäuser hältst und klingelst. Vielleicht kann dir jemand ein Taxi rufen",50,250);
 text("oder dir zumindest sagen wo du gerade bist. Selbst wenn nicht, du hast auch so",50,280);
 text("unglaublich großen Durst. Vielleicht bekommst du ja auch einfach ein Glas",50,310);
-text("Wasser. “Stay hydrated” bildest du dir ein von Larrys Stimme zu hören. Du",50,330);
-text("schaust dich um, um die Vertrauenswürdigkeit der Hauseingänge zu analysieren.",50,360);   
-text("zwei Häuser fallen dir ins Auge. Das eine blau- mit einem Schild mit der",50,390);   
-text("Aufschrift “Achtung! bissiger Hund”. Das andere Haus ist strahlend gelb und hat",50,420);   
-text("eine süße Fußmatte auf der dich das Foto eines Hundewelpen herzlich",50,450);   
-text("willkommen heißt.",50,480);     
+text("Wasser. “Stay hydrated” bildest du dir ein von Larrys Stimme zu hören. Du",50,340);
+text("schaust dich um, um die Vertrauenswürdigkeit der Hauseingänge zu analysieren.",50,370);   
+text("zwei Häuser fallen dir ins Auge. Das eine blau- mit einem Schild mit der",50,400);   
+text("Aufschrift “Achtung! bissiger Hund”. Das andere Haus ist strahlend gelb und hat",50,430);   
+text("eine süße Fußmatte auf der dich das Foto eines Hundewelpen herzlich",50,460);   
+text("willkommen heißt.",50,490);     
+
+fill(255,150,0);
+rect(50,550,350,80);
+
+fill(128);
+textSize(30);
+text("BLAUES HAUS",110,600);
+
+if(mouseIsPressed && mouseX>50 && mouseX<400 && mouseY>550 && mouseY<630) {
+    mode=25;}
+
+fill(255,150,0);
+rect(600,550,350,80);
+
+fill(128);
+textSize(30);
+text("GELBES HAUS",680,600);
+
+if(mouseIsPressed && mouseX>600 && mouseX<950 && mouseY>550 && mouseY<630) {
+    mode=24;}
+
 
 //bei gelben Haus oder bei blauem Haus klingeln
 }
@@ -680,6 +701,26 @@ text("hier zu klingen? Verpissen sie sich, oder ich rufe die Polizei.” Nachdem
 text("Hasstirade ein Ende hat, blickt sie dich weiter an. Du beschließt, dennoch um",50,220);
 text("Hilfe zu bitten, denn du weißt wirklich nicht, was du sonst machen sollst.",50,250);
 
+fill(255,150,0);
+        rect(50,350,350,80);
+        
+        fill(128);
+        textSize(30);
+        text("NACH TAXI FRAGEN",80,400);
+        
+        if(mouseIsPressed && mouseX>50 && mouseX<400 && mouseY>350 && mouseY<430) {
+            mode=26;}
+    
+        fill(255,150,0);
+        rect(600,350,350,80);
+    
+        fill(128);
+        textSize(30);
+        text("UM WASSER BITTEN",620,400);
+        
+        if(mouseIsPressed && mouseX>600 && mouseX<950 && mouseY>350 && mouseY<430) {
+            mode=27;}
+    
 //Nach taxi oder wasser fragen
 }
 
@@ -698,22 +739,22 @@ text("Tür. Ein volltätowierter großer Typ steht vor dir und schaut dich versc
 text("Du erklärst ihm deine Situation aber er scheint dich nicht zu verstehen. Mit einem",50,250);
 text("überraschend Mitfühlenden Blick bittet er dich herein und zeigt auf die Couch. Du",50,280);
 text("setzt dich wortlos hin. Er blickt dich sorgenvoll an. Du willst den Blick erwidern ",50,310);
-text("aber bemerkst, dass deine Wahrnehmung irgendwie Spielchen mit dir zu spielen",50,330);
-text("scheint. Das Gesicht des Typen in dessen Haus du sitzt nimmt eigenartige",50,360);   
-text("Formen an. Auch der Hintergrund wird schwummrig. Du gibst alles um dich zu ",50,390);   
-text("konzentrieren aber deine Augen lassen das nicht zu. Aufeinmal steht der Typ auf",50,420);   
-text("und geht. Du bekommst Angst und überlegst ob du schnell rausrennen sollst.",50,450);   
-text("Doch bevor du den Gedanken zu Ende denken kannst, kommt er wieder und hält",50,480);   
-text("dir ein Glas Wasser hin.",50,510);    
+text("aber bemerkst, dass deine Wahrnehmung irgendwie Spielchen mit dir zu spielen",50,340);
+text("scheint. Das Gesicht des Typen in dessen Haus du sitzt nimmt eigenartige",50,370);   
+text("Formen an. Auch der Hintergrund wird schwummrig. Du gibst alles um dich zu ",50,400);   
+text("konzentrieren aber deine Augen lassen das nicht zu. Aufeinmal steht der Typ auf",50,430);   
+text("und geht. Du bekommst Angst und überlegst ob du schnell rausrennen sollst.",50,460);   
+text("Doch bevor du den Gedanken zu Ende denken kannst, kommt er wieder und hält",50,490);   
+text("dir ein Glas Wasser hin.",50,520);    
 
 fill(255,150,0);
-rect(250,350,500,80);
+rect(250,650,500,80);
 
 fill(128);
 textSize(30);
-text("CONTINUE",300,400);
+text("WEITERLESEN",400,700);
 
-if(mouseIsPressed && mouseX>250 && mouseX<750 && mouseY>350 && mouseY<430) {
+if(mouseIsPressed && mouseX>250 && mouseX<750 && mouseY>650 && mouseY<730) {
     mode=3;}
 
 //CONTINUE TO (3)
@@ -734,25 +775,25 @@ text("dauert eine ganze Weile bis ein Wagen vorfährt. Dir fällt ein Stein vom 
 text("denn langsam hattest du schon fast nicht mehr daran geglaubt, dass dich noch",50,250);
 text("jemand abholt. Der Wagen stoppt vor der Tür. Es ist kein gewöhnliches Taxi,",50,280);
 text("sondern ein weißer Transporter. Du hinterfragst das nicht und steigst hinten ein.",50,310);
-text("Es ist angenehm dunkel im Taxi. Nachdem du dem Fahrer deine Adresse gesagt",50,330);   
-text("hast und er losfährt schläfst du sofort ein. Du schläfst eine ganze Weile bis du",50,360); 
-text("durch eine heftige Bodenwelle aus dem Schlaf gerissen wirst. Verschlafen blickst",50,390); 
-text("du aus dem Fenster und traust deinen Augen kaum. Alles was du siehst ist dir ",50,420); 
-text("gänzlich unbekannt. Auf den Schildern sind buchstaben die du nicht kennst und ",50,450); 
-text("auch die Landschaft ist dir nicht vertraut.",50,480); 
-text("Du willst den Taxifahrer fragen wo du bist und drehst deinen Kopf zum",50,510); 
-text("Autoinneren. Jetzt erkennst du neben dir einen vermummten Mann, der eine",50,540); 
-text("Waffe auf dich richtet.",50,570); 
+text("Es ist angenehm dunkel im Taxi. Nachdem du dem Fahrer deine Adresse gesagt",50,340);   
+text("hast und er losfährt schläfst du sofort ein. Du schläfst eine ganze Weile bis du",50,370); 
+text("durch eine heftige Bodenwelle aus dem Schlaf gerissen wirst. Verschlafen blickst",50,400); 
+text("du aus dem Fenster und traust deinen Augen kaum. Alles was du siehst ist dir ",50,430); 
+text("gänzlich unbekannt. Auf den Schildern sind buchstaben die du nicht kennst und ",50,460); 
+text("auch die Landschaft ist dir nicht vertraut.",50,490); 
+text("Du willst den Taxifahrer fragen wo du bist und drehst deinen Kopf zum",50,520); 
+text("Autoinneren. Jetzt erkennst du neben dir einen vermummten Mann, der eine",50,550); 
+text("Waffe auf dich richtet.",50,580); 
 
 fill(255,150,0);
-rect(250,350,500,80);
+rect(250,650,500,80);
 
 fill(128);
 textSize(30);
-text("CLICK HERE TO RESTART",300,400);
+text("CLICK HERE TO RESTART",300,700);
 
-if(mouseIsPressed && mouseX>250 && mouseX<750 && mouseY>350 && mouseY<430) {
-    mode=1;}
+if(mouseIsPressed && mouseX>250 && mouseX<750 && mouseY>650 && mouseY<730) {
+    mode=0;}
 
 //NEUSTART
 }
@@ -774,14 +815,14 @@ text("finden. Du läufst und läufst, wankst und taumelst bis auch dein letzter 
 text("Kraft dich verlässt. Dann kippst du einfach um.",50,310);
 
 fill(255,150,0);
-rect(250,350,500,80);
+rect(250,450,500,80);
 
 fill(128);
 textSize(30);
-text("CLICK HERE TO RESTART",300,400);
+text("CLICK HERE TO RESTART",300,500);
 
-if(mouseIsPressed && mouseX>250 && mouseX<750 && mouseY>350 && mouseY<430) {
-    mode=1;}
+if(mouseIsPressed && mouseX>250 && mouseX<750 && mouseY>450 && mouseY<530) {
+    mode=0;}
 
 //NEUSTART
 }
@@ -812,7 +853,7 @@ textSize(30);
 text("CLICK HERE TO RESTART",300,450);
 
 if(mouseIsPressed && mouseX>250 && mouseX<750 && mouseY>400 && mouseY<470) {
-    mode=1;}
+    mode=0;}
 
  // NEUSTART
 }
