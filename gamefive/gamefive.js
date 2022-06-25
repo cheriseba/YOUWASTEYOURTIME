@@ -2,8 +2,6 @@ let mode;
 let w=1000;
 let h=1000;
 
-
-
 function setup() {
 mode = 0;
 createCanvas(1000,1000);
@@ -11,8 +9,6 @@ createCanvas(1000,1000);
 
 function draw() {
 clear();
-
-
 
 if(mode==0) {   //(0)   INTRO
 
