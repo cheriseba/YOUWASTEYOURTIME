@@ -120,6 +120,42 @@ text("du musst Trinken- stay Hydrated weisste?”",50,130);
 
 if(mode==3) {
 
+    fill(128);
+    textSize(25);
+
+text("Du lehnst ab. “Was weiß ich was der da rein gemischt hat”, denkst du, obwohl du",50,70);
+text("einen immens großen Durst verspürst. Es dauert nicht lange bis dein Mund sich ",50,100);
+text("so trocken anfühlt, dass du dich schließlich dazu entscheidest das Wasser",50,130);
+text("anzunehmen. Du trinkst einen großen Schluck. Wie sehr du etwas zu trinken",50,160);
+text("gebraucht hast, scheint dir jetzt bewusst zu werden. Deine Sicht klärt sich und du",50,190);
+text("fühlst dich gar nicht mehr so vernebelt und benommen. Du schließt kurz die",50,220);
+text("Augen- um zu genießen, dass sich in diesem Moment nicht alles dreht und",50,250);
+text("entspannst dich. Das nächste was du bewusst wahrnimmst ist das Gefühl einer",50,280);
+text("warmen Bettdecke die dich umschließt. Als du die Augen öffnest, findest du dich",50,310);
+text("in einem Bett wieder.",50,340);
+
+fill(255,150,0);
+        rect(50,370,300,80);
+        
+        fill(128);
+        textSize(30);
+        text("AUFSPRINGEN",90,420);
+        
+        if(mouseIsPressed && mouseX>50 && mouseX<350 && mouseY>370 && mouseY<450) {
+            mode=6;}
+    
+        fill(255,150,0);
+        rect(650,370,300,80);
+    
+        fill(128);
+        textSize(30);
+        text("WEITERSCHLAFEN",660,420);
+        
+        if(mouseIsPressed && mouseX>650 && mouseX<950 && mouseY>370 && mouseY<450) {
+            mode=7;}
+
+//(6) oder (7)
+
 }
 
 //(4)LARRY SUCHEN
@@ -180,18 +216,18 @@ text("eine bodenlose Tiefe auf. Du verspürst einen starken Sog an deinem Hinter
 text("und alles wird schwarz.",50,310);
 
 fill(255,150,0);
-rect(250,350,500,80);
+rect(250,450,500,80);
 
 fill(128);
 textSize(30);
-text("CLICK HERE TO RESTART",300,400);
+text("CLICK HERE TO RESTART",300,500);
 
-if(mouseIsPressed && mouseX>250 && mouseX<750 && mouseY>350 && mouseY<430) {
+if(mouseIsPressed && mouseX>250 && mouseX<750 && mouseY>450 && mouseY<530) {
     mode=0;}
 
 }
 
-//(6)
+//(6) AUFSPRINGEN
 
 if(mode==6) {
    
@@ -209,9 +245,25 @@ text("",50,280);
 text("",50,310);
 text("",50,330);
 
+
+
+fill(255,150,0);
+rect(250,450,500,80);
+ 
+fill(128);
+textSize(30);
+text("CLICK HERE TO RESTART",300,500);
+ 
+if(mouseIsPressed && mouseX>250 && mouseX<750 && mouseY>450 && mouseY<530) {
+    mode=0;}
+
+
+
+//NEUSTART
+
 }
 
-//(7)
+//(7) WEITERSCHLAFEN                                                                                                         
 
 if(mode==7) {
 
@@ -228,6 +280,29 @@ text("",50,250);
 text("",50,280);
 text("",50,310);
 text("",50,330);
+
+fill(255,150,0);
+        rect(50,450,300,80);
+        
+        fill(128);
+        textSize(30);
+        text("10",100,500);
+        
+        if(mouseIsPressed && mouseX>50 && mouseX<350 && mouseY>450 && mouseY<530) {
+            mode=10;}
+    
+        fill(255,150,0);
+        rect(650,450,300,80);
+    
+        fill(128);
+        textSize(30);
+        text("11",680,500);
+        
+        if(mouseIsPressed && mouseX>650 && mouseX<950 && mouseY>450 && mouseY<530) {
+            mode=11;}
+
+
+//(10) oder (11)
 }
 
 //(8) COOL BLEIBEN
@@ -320,6 +395,29 @@ text("",50,250);
 text("",50,280);
 text("",50,310);
 text("",50,330);   
+
+fill(255,150,0);
+    rect(50,550,350,80);
+   
+    fill(128);
+    textSize(30);
+    text("14",70,600);
+   
+    if(mouseIsPressed && mouseX>50 && mouseX<400 && mouseY>550 && mouseY<630) {
+        mode=14;}
+ 
+    fill(255,150,0);
+    rect(600,550,350,80);
+ 
+    fill(128);
+    textSize(30);
+    text("15",670,600);
+   
+    if(mouseIsPressed && mouseX>600 && mouseX<950 && mouseY>550 && mouseY<630) {
+        mode=15;}
+
+
+//(14) oder (15)
 }
 
 //(11)
@@ -337,7 +435,20 @@ text("",50,220);
 text("",50,250);
 text("",50,280);
 text("",50,310);
-text("",50,330);   
+text("",50,330);
+
+fill(255,150,0);
+rect(250,550,500,80);
+ 
+fill(128);
+textSize(30);
+text("CLICK HERE TO RESTART",300,600);
+ 
+if(mouseIsPressed && mouseX>250 && mouseX<750 && mouseY>550 && mouseY<730) {
+    mode=0;}
+
+
+//NEUSTART
 }
 
 //(12) NACH HAUSE GEHEN
@@ -442,6 +553,29 @@ text("",50,250);
 text("",50,280);
 text("",50,310);
 text("",50,330);    
+
+fill(255,150,0);
+    rect(50,350,350,80);
+   
+    fill(128);
+    textSize(30);
+    text("18",70,400);
+   
+    if(mouseIsPressed && mouseX>50 && mouseX<400 && mouseY>350 && mouseY<430) {
+        mode=18;}
+ 
+    fill(255,150,0);
+    rect(600,350,350,80);
+ 
+    fill(128);
+    textSize(30);
+    text("19",670,400);
+   
+    if(mouseIsPressed && mouseX>600 && mouseX<950 && mouseY>350 && mouseY<430) {
+        mode=19;}
+
+
+//(18) oder (19)
 }
 
 //(15)
@@ -460,6 +594,20 @@ text("",50,250);
 text("",50,280);
 text("",50,310);
 text("",50,330);   
+
+fill(255,150,0);
+rect(250,650,500,80);
+ 
+fill(128);
+textSize(30);
+text("CLICK HERE TO RESTART",400,700);
+ 
+if(mouseIsPressed && mouseX>250 && mouseX<750 && mouseY>650 && mouseY<730) {
+    mode=0;}
+
+
+
+//NEUSTART
 }
 
 //(16) AUFSTEHEN UND GEHEN
@@ -556,6 +704,19 @@ text("",50,250);
 text("",50,280);
 text("",50,310);
 text("",50,330);    
+
+fill(255,150,0);
+rect(250,550,500,80);
+ 
+fill(128);
+textSize(30);
+text("WEITERLESEN",300,600);
+ 
+if(mouseIsPressed && mouseX>250 && mouseX<750 && mouseY>550 && mouseY<730) {
+    mode=7;}
+
+
+//BACK TO (7) oder (3)
 }
 
 //(19)
@@ -574,6 +735,29 @@ text("",50,250);
 text("",50,280);
 text("",50,310);
 text("",50,330);   
+
+fill(255,150,0);
+        rect(50,450,300,80);
+        
+        fill(128);
+        textSize(30);
+        text("20",100,500);
+        
+        if(mouseIsPressed && mouseX>50 && mouseX<350 && mouseY>450 && mouseY<530) {
+            mode=20;}
+    
+        fill(255,150,0);
+        rect(650,450,300,80);
+    
+        fill(128);
+        textSize(30);
+        text("21",680,500);
+        
+        if(mouseIsPressed && mouseX>650 && mouseX<950 && mouseY>450 && mouseY<530) {
+            mode=21;}
+
+
+//(20) oder (21)
 }
 
 //(20)
@@ -591,7 +775,20 @@ text("",50,220);
 text("",50,250);
 text("",50,280);
 text("",50,310);
-text("",50,330);    
+text("",50,330); 
+
+fill(255,150,0);
+rect(250,350,500,80);
+ 
+fill(128);
+textSize(30);
+text("WEITERLESEN",300,400);
+ 
+if(mouseIsPressed && mouseX>250 && mouseX<750 && mouseY>350 && mouseY<430) {
+    mode=18;}
+
+
+//NEUSTART
 }
 
 //(21)
@@ -610,6 +807,18 @@ text("",50,250);
 text("",50,280);
 text("",50,310);
 text("",50,330);   
+
+fill(255,150,0);
+rect(250,550,500,80);
+ 
+fill(128);
+textSize(30);
+text("CLICK HERE TO RESTART",300,600);
+ 
+if(mouseIsPressed && mouseX>250 && mouseX<750 && mouseY>550 && mouseY<730) {
+    mode=0;}
+
+//NEUSTART
 }
 
 //(22) HAUPTSTRA?E
@@ -871,7 +1080,7 @@ text("Angriff mit einem Roundhousekick mit deinem Gesicht als Ziel. Du wirst",50
 text("ohnmächtig- instant Knock-Out.",50,190);
  
 fill(255,150,0);
-rect(250,350,500,80);
+rect(250,350,500,80);   
 
 fill(128);
 textSize(30);
