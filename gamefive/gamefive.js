@@ -12,9 +12,9 @@ createCanvas(1000,1000);
 function draw() {
 clear();
 
-if(mode==0) {
 
-// INTRO
+
+if(mode==0) {   //(0)   INTRO
 
 fill(128);
 textSize(50);
@@ -41,9 +41,7 @@ if(mouseIsPressed && mouseX>250 && mouseX<750 && mouseY>350 && mouseY<430) {
 
 }
 
-//(1)
-
-if(mode==1) {
+if(mode==1) {   //(1)   STORY
     
     fill(128);
     textSize(25);
@@ -73,11 +71,9 @@ text("du musst Trinken- stay Hydrated weisste?”",50,130);
     if(mouseIsPressed && mouseX>700 && mouseX<950 && mouseY>250 && mouseY<430) {
         mode=3;}
 
-    }
+}
 
-//(2)ANNEHMEN
-
- if(mode==2) {
+ if(mode==2) {  //(2)   ANNEHMEN
     
         fill(128);
         textSize(25);
@@ -116,9 +112,7 @@ text("du musst Trinken- stay Hydrated weisste?”",50,130);
     
 }
 
-//(3)
-
-if(mode==3) {
+if(mode==3) {   //(3)   ABLEHNEN
 
     fill(128);
     textSize(25);
@@ -158,9 +152,7 @@ fill(255,150,0);
 
 }
 
-//(4)LARRY SUCHEN
-
-if(mode==4) {
+if(mode==4) {   //(4)   LARRY SUCHEN
     
     fill(128);
     textSize(25);
@@ -196,11 +188,9 @@ text("Auf einmal spürst du einen schweren Griff der dich nach hinten zieht.",50
     if(mouseIsPressed && mouseX>600 && mouseX<950 && mouseY>350 && mouseY<430) {
         mode=8;}
 
-    }
+}
 
-//(5)ZUR TOILETTE
-
-if(mode==5) {
+if(mode==5) {   //(5)   ZUR TOILETTE
     
     fill(128);
     textSize(25);
@@ -227,9 +217,7 @@ if(mouseIsPressed && mouseX>250 && mouseX<750 && mouseY>450 && mouseY<530) {
 
 }
 
-//(6) AUFSPRINGEN
-
-if(mode==6) {
+if(mode==6) {   //(6)   AUFSPRINGEN
    
     fill(128);
     textSize(25);
@@ -261,11 +249,9 @@ if(mouseIsPressed && mouseX>250 && mouseX<750 && mouseY>450 && mouseY<530) {
 
 //NEUSTART
 
-}
+}                                                                                                         
 
-//(7) WEITERSCHLAFEN                                                                                                         
-
-if(mode==7) {
+if(mode==7) {   //(7)   WEITERSCHLAFEN
 
     fill(128);
     textSize(25);
@@ -305,9 +291,7 @@ fill(255,150,0);
 //(10) oder (11)
 }
 
-//(8) COOL BLEIBEN
-
-if(mode==8) {
+if(mode==8) {   //(8)   COOL BLEIBEN
     fill(128);
     textSize(25);
 
@@ -336,9 +320,7 @@ if(mouseIsPressed && mouseX>250 && mouseX<750 && mouseY>550 && mouseY<730) {
 //NEUSTART
 }
 
-//(9) WILD UM DICH SCHLAGEN
-
-if(mode==9) {
+if(mode==9) {   //(9)   WILD UM DICH SCHLAGEN
     fill(128);
     textSize(25);
 
@@ -379,9 +361,7 @@ fill(255,150,0);
 //einschlafen oder nach Hause gehen
 }
 
-//(10)
-
-if(mode==10) {
+if(mode==10) {  //(10)  WEITERSCHLAFEN
     fill(128);
     textSize(25);
 
@@ -420,9 +400,7 @@ fill(255,150,0);
 //(14) oder (15)
 }
 
-//(11)
-
-if(mode==11) {
+if(mode==11) {  //(11)  AUFSPRINGEN
     fill(128);
     textSize(25);
 
@@ -451,9 +429,7 @@ if(mouseIsPressed && mouseX>250 && mouseX<750 && mouseY>550 && mouseY<730) {
 //NEUSTART
 }
 
-//(12) NACH HAUSE GEHEN
-
-if(mode==12) {
+if(mode==12) {  //(12)  NACH HAUSE GEHEN
     fill(128);
     textSize(25);
 
@@ -492,9 +468,7 @@ if(mouseIsPressed && mouseX>600 && mouseX<950 && mouseY>450 && mouseY<530) {
 //freundlich grüßen oder Omi umboxen
 }
 
-//(13) EINSCHLAFEN
-
-if(mode==13) {
+if(mode==13) {  //(13)  EINSCHLAFEN
     fill(128);
     textSize(25);
 
@@ -537,9 +511,7 @@ if(mouseIsPressed && mouseX>600 && mouseX<950 && mouseY>650 && mouseY<730) {
 //katze streicheln oder aufstehen und gehen
 }
 
-//(14)
-
-if(mode==14) {
+if(mode==14) {  //(14)
     fill(128);
     textSize(25);
 
@@ -578,9 +550,7 @@ fill(255,150,0);
 //(18) oder (19)
 }
 
-//(15)
-
-if(mode==15) {
+if(mode==15) {  //(15)
     fill(128);
     textSize(25);
 
@@ -610,9 +580,7 @@ if(mouseIsPressed && mouseX>250 && mouseX<750 && mouseY>650 && mouseY<730) {
 //NEUSTART
 }
 
-//(16) AUFSTEHEN UND GEHEN
-
-if(mode==16) {
+if(mode==16) {  //(16)  AUFSTEHEN UND GEHEN
     fill(128);
     textSize(25);
 
@@ -651,9 +619,7 @@ if(mouseIsPressed && mouseX>600 && mouseX<950 && mouseY>400 && mouseY<470) {
 //durch Wohngebiet oder Hauptstraße folgen
 }
 
-//(17) KATZE STREICHELN
-
-if(mode==17) {
+if(mode==17) {  //(17)  KATZE STREICHELN
     fill(128);
     textSize(25);
 
@@ -688,9 +654,7 @@ if(mouseIsPressed && mouseX>250 && mouseX<750 && mouseY>550 && mouseY<630) {
 //NEUSTART
 }
 
-//(18)
-
-if(mode==18) {
+if(mode==18) {  //(18)
     fill(128);
     textSize(25);
 
@@ -719,9 +683,7 @@ if(mouseIsPressed && mouseX>250 && mouseX<750 && mouseY>550 && mouseY<730) {
 //BACK TO (7) oder (3)
 }
 
-//(19)
-
-if(mode==19) {
+if(mode==19) {  //(19)
     fill(128);
     textSize(25);
 
@@ -760,9 +722,7 @@ fill(255,150,0);
 //(20) oder (21)
 }
 
-//(20)
-
-if(mode==20) {
+if(mode==20) {  //(20)
     fill(128);
     textSize(25);
 
@@ -791,9 +751,7 @@ if(mouseIsPressed && mouseX>250 && mouseX<750 && mouseY>350 && mouseY<430) {
 //NEUSTART
 }
 
-//(21)
-
-if(mode==21) {
+if(mode==21) {  //(21)
     fill(128);
     textSize(25);
 
@@ -821,9 +779,7 @@ if(mouseIsPressed && mouseX>250 && mouseX<750 && mouseY>550 && mouseY<730) {
 //NEUSTART
 }
 
-//(22) HAUPTSTRA?E
-
-if(mode==22) {
+if(mode==22) {  //(22)  HAUPTSTRA?E
     fill(128);
     textSize(25);
 
@@ -850,9 +806,7 @@ if(mouseIsPressed && mouseX>250 && mouseX<750 && mouseY>350 && mouseY<430) {
 //NEUSTART
 }
 
-//(23)WOHNGEBIET
-
-if(mode==23) {
+if(mode==23) {  //(23)  WOHNGEBIET
     fill(128);
     textSize(25);
 
@@ -896,9 +850,7 @@ if(mouseIsPressed && mouseX>600 && mouseX<950 && mouseY>550 && mouseY<630) {
 //bei gelben Haus oder bei blauem Haus klingeln
 }
 
-//(24)GELBES HAUS
-
-if(mode==24) {
+if(mode==24) {  //(24)  GELBES HAUS
     fill(128);
     textSize(25);
 
@@ -933,9 +885,7 @@ fill(255,150,0);
 //Nach taxi oder wasser fragen
 }
 
-//(25)BLAUES HAUS
-
-if(mode==25) {
+if(mode==25) {  //(25)  BLAUES HAUS
     fill(128);
     textSize(25);
 
@@ -969,9 +919,7 @@ if(mouseIsPressed && mouseX>250 && mouseX<750 && mouseY>650 && mouseY<730) {
 //CONTINUE TO (3)
 }
 
-//(26) TAXI
-
-if(mode==26) {
+if(mode==26) {  //(26)  TAXI
     fill(128);
     textSize(25);
 
@@ -1007,9 +955,7 @@ if(mouseIsPressed && mouseX>250 && mouseX<750 && mouseY>650 && mouseY<730) {
 //NEUSTART
 }
 
-//(27)WASSER
-
-if(mode==27) {
+if(mode==27) {  //(27)  WASSER
     fill(128);
     textSize(25);
 
@@ -1036,9 +982,7 @@ if(mouseIsPressed && mouseX>250 && mouseX<750 && mouseY>450 && mouseY<530) {
 //NEUSTART
 }
 
-//(28) FREUNDLICH GRÜ?EN
-
-if(mode==28) {
+if(mode==28) {  //(28)  FREUNDLICH GRÜ?EN
     fill(128);
     textSize(25);
 
@@ -1067,9 +1011,7 @@ if(mouseIsPressed && mouseX>250 && mouseX<750 && mouseY>400 && mouseY<470) {
  // NEUSTART
 }
 
-//(29) OMI UMBOXEN
-
-if(mode==29) {
+if(mode==29) {  //(29)  OMI UMBOXEN
     fill(128);
     textSize(25);
 
@@ -1091,8 +1033,5 @@ if(mouseIsPressed && mouseX>250 && mouseX<750 && mouseY>350 && mouseY<430) {
 
 //NEUSTART
 }
-
-
-
 
 }
